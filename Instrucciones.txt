@@ -1,0 +1,8 @@
+* docker images
+* docker pull node      ---version lates
+* docker pull node:18       ---version especifica
+* docker pull mysql
+* docker image rm mysql       --eliminar una imagen
+* docker create mongo       ---crear un contenedor
+* docker start c5fa05376c360280b7bbcd5808e6ef147346595c378abe7d456398112caf9f20
+* docker ps
