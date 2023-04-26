@@ -6,3 +6,16 @@
 * docker create mongo       ---crear un contenedor
 * docker start c5fa05376c360280b7bbcd5808e6ef147346595c378abe7d456398112caf9f20
 * docker ps
+* docker ps -a
+* docker stop c5fa05376c360280b7bbcd5808e6ef14734
+* docker create -p27017:27017 --name monguito mongo
+* docker start monguito
+* docker logs --follow 
+* docker run -d mongo
+* docker run --name moguito2 -p27017:27017 -d mongo
+* docker network ls 
+* docker network create mired
+* docker network create rm mired
+* docker build -t miapp:1.0.0 .
+* docker create -p27017:27017 --name monguito --network mired mongo
+* docker compose up
